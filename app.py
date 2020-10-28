@@ -9,7 +9,7 @@ import streamlit as st
 from PIL import Image
 
 
-classifier = pickle.load(open("C:\\Users\\KomalA\\Downloads\\cancer-app.pkl","rb"))
+classifier = pickle.load(open("cancer-app.pkl","rb"))
 
 
 def about():
