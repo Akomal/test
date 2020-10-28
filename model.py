@@ -143,7 +143,7 @@ print(Accuracy)
 
 
 import pickle
-pickle_out=open(r"C:\Users\KomalA\Documents\deploy\breast-cancer-app\cancer-app.pkl","wb")
+pickle_out=open(r"cancer-app.pkl","wb")
 pickle.dump(model,pickle_out)
 pickle_out.close()
 
